@@ -12,10 +12,15 @@
 //   }
 // }
 
+// function checkAge(age) {
+//   return age > 18 ? true : "Did parents allow you?";
+// }
+// console.log(checkAge(5));
+
 function checkAge(age) {
-  return age > 18 ? true : "Did parents allow you?";
+  return age > 18 || "Did parents allow you?";
 }
-console.log(checkAge(5));
+console.log(checkAge(4));
 // Rewrite it, to perform the same, but without if, in a single line.
 
 // Make two variants of checkAge:
